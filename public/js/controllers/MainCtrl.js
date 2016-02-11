@@ -1,4 +1,6 @@
-angular.module('MainCtrl', []).controller('MainController', function($scope) {
+angular.module('app')
+
+.controller('mainCtrl', function($scope) {
 
 	$scope.tagline = 'To the moon and back!';	
 
